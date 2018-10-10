@@ -33,3 +33,13 @@ development:
   username: deploy
   password: deploy
   timeout: 5000
+
+production:
+  host: 127.0.0.1
+  adapter: postgresql
+  encoding: unicode
+  database: demo_slack #production_4_new #production_3_new #staging_3_aug #production_9_new #production_9
+  pool: 5
+  username: deploy
+  password: deploy
+  timeout: 5000  
